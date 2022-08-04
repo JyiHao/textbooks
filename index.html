@@ -103,6 +103,10 @@
     </title>
     
     
+        <style type="text/css">
+            html{filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:url("data:p_w_picpath/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\"><filter id=\"grayscale\"><feColorMatrix type=\"matrix\" values=\"0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\"/></filter></svg>#grayscale");filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);filter:gray;-webkit-filter:grayscale(1)}
+        </style> 
+    
 <meta name="generator" content="Hexo 5.4.2"></head>
 <body>
     <div id="app">
@@ -150,22 +154,6 @@
             </v-list-item-content>
             </v-list-item>
         
-            
-            <v-list-item href="https://garybear.cn/" link>
-            <v-list-item-icon><v-icon>rss_feed</v-icon></v-list-item-icon>
-            <v-list-item-content>
-                我的博客
-            </v-list-item-content>
-            </v-list-item>
-        
-            
-            <v-list-item href="https://garybear.cn/hexo-theme-insulin/doc/#/" link>
-            <v-list-item-icon><v-icon>insert_drive_file</v-icon></v-list-item-icon>
-            <v-list-item-content>
-                说明文档
-            </v-list-item-content>
-            </v-list-item>
-        
     </v-list>
     <v-divider></v-divider>
     
@@ -199,7 +187,7 @@
             <span>Theme: <a target="_blank" rel="noopener" href="https://github.com/kb1000fx/hexo-theme-insulin">Insulin</a></span><br>
             <span>Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a></span><br>
             <span>
-                &copy; 2015 - 2022 
+                &copy; 2021 - 2022 
                 JyiHao
             </span>
         </div>
@@ -216,7 +204,7 @@
       </div>
       <div id="site-description"></div>
       <div id="mobile-menu" class="d-block d-md-none">
-        <v-text-field label="请输入关键字" data-src="search.xml" v-model="searchHeaderValue" prepend-inner-icon="search" clearable clear-icon="clear" @keydown.enter="EnterSearch(searchHeaderValue,false)"></v-text-field>
+        <v-text-field label="请输入Key words" data-src="search.xml" v-model="searchHeaderValue" prepend-inner-icon="search" clearable clear-icon="clear" @keydown.enter="EnterSearch(searchHeaderValue,false)"></v-text-field>
         <div class="mobile-mini-menu">
           <v-btn icon href="/">
               <v-icon>home</v-icon>
@@ -241,23 +229,13 @@
               <v-icon>account_circle</v-icon>
             </v-btn>
           
-            
-            <v-btn icon href="https://garybear.cn/">
-              <v-icon>rss_feed</v-icon>
-            </v-btn>
-          
-            
-            <v-btn icon href="https://garybear.cn/hexo-theme-insulin/doc/#/">
-              <v-icon>insert_drive_file</v-icon>
-            </v-btn>
-          
         </div>
       </div>    
     </div>
   </v-col>  
   <v-col cols="4" align-self="end" class="d-none d-md-block">
     <v-col align-self="end">
-      <v-text-field label="请输入关键字" data-src="search.xml" v-model="searchHeaderValue" prepend-icon="search" clearable clear-icon="clear" @keydown.enter="EnterSearch(searchHeaderValue,false)"></v-text-field>
+      <v-text-field label="请输入Key words" data-src="search.xml" v-model="searchHeaderValue" prepend-icon="search" clearable clear-icon="clear" @keydown.enter="EnterSearch(searchHeaderValue,false)"></v-text-field>
     </v-col> 
   </v-col>
 </v-row>
@@ -270,30 +248,48 @@
         <v-row no-gutters>
           <v-col cols="auto">
             <div class="index-article-header-date font-weight-medium">
-              2022-06-11
+              2022-08-04
             </div>
           </v-col>
           <v-spacer></v-spacer>
           <v-col cols="auto">
             
+              <v-card flat color="secondary" tile class="index-article-header-tag  font-weight-medium">
+                
+                  <span class="index-article-header-tag-content">
+                    <v-icon>fas fa-tag</v-icon>
+                    <a rel="tag" href = /textbooks/tags/%E5%90%8D%E8%91%97/ >名著</a>
+                  </span>
+                
+              </v-card>
+            
           </v-col>
         </v-row>
         <span>
           
-            <a class="index-article-header-category font-weight-bold" href="/textbooks/2022/06/11/Start/">Uncategorized></a>
+            <a class="index-article-header-category font-weight-bold" href="/textbooks/2022/08/04/w1b/">Uncategorized></a>
            
         </span> 
-        <a class="index-article-header-title font-weight-medium" href="/textbooks/2022/06/11/Start/">Start</a>
+        <a class="index-article-header-title font-weight-medium" href="/textbooks/2022/08/04/w1b/">西游记</a>
       </div>
       
       <div class="index-article-content">
         
           
+
+	
+    
+	
+
+
+
+文件链接
+
         
       </div>
       
       <div class="index-article-readmore ">
-        <v-btn text href="/textbooks/2022/06/11/Start/">Read More</v-btn>
+        <v-btn text href="/textbooks/2022/08/04/w1b/">Read More</v-btn>
       </div>
       <v-divider></v-divider>
     </article> 
@@ -317,7 +313,7 @@
             <a class="index-article-header-category font-weight-bold" href="/textbooks/2022/06/11/hello-world/">Uncategorized></a>
            
         </span> 
-        <a class="index-article-header-title font-weight-medium" href="/textbooks/2022/06/11/hello-world/">Hello World</a>
+        <a class="index-article-header-title font-weight-medium" href="/textbooks/2022/06/11/hello-world/">Hexo 帮助</a>
       </div>
       
       <div class="index-article-content">
@@ -343,7 +339,7 @@ Run server1$ hexo ...
                                 <v-divider></v-divider>
                                 <div id="mobile-footer-content">
                                     <span>Theme: <a target="_blank" rel="noopener" href="https://github.com/kb1000fx/hexo-theme-insulin">Insulin</a> &nbsp; Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a></span><br>
-                                    <span> &copy; 2015 - 2022 JyiHao</span>
+                                    <span> &copy; 2021 - 2022 JyiHao</span>
                                 </div>
                             </div>                   
                         </v-col>                                            
